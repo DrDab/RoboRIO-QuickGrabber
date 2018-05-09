@@ -96,12 +96,12 @@ public class GrabberRunner
 	                boolean success = downloadSingleFile(ftpClient, filePath, HOME_DIR_DESKTOP + "RoboRIO-Files/");
 	                if (success) 
 	                {
-	                    System.out.println("DOWNLOADED the file: " + filePath);
+	                    System.out.println("[OK] " + filePath);
 	                    return true;
 	                } 
 	                else
 	                {
-	                    System.out.println("COULD NOT download the file: " + filePath);
+	                    System.out.println("[FAIL] " + filePath);
 	                    return false;
 	                }
 				}
