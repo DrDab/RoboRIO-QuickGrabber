@@ -97,12 +97,10 @@ public class GrabberRunner
 	                if (success) 
 	                {
 	                    System.out.println("[OK] " + filePath);
-	                    return true;
 	                } 
 	                else
 	                {
 	                    System.out.println("[FAIL] " + filePath);
-	                    return false;
 	                }
 				}
 			}
